@@ -1,0 +1,64 @@
+form{
+    width: 800px;
+    margin: 30px auto;
+ 
+
+}
+input[type="text"],
+input[type="number"]{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 193px;
+}
+input[type="button"]{
+    background-color: #086788;
+    border:  solid 1px #032d3c;
+    border-radius: 5px;
+    padding: 5px; 
+    font-weight: bold;
+    width: 145px;
+
+}
+table{
+    width:80%;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 5px;   
+}
+th{
+    background-color: #086788;
+    
+}
+#excluir{
+ background-color: #dd1c1a;
+ border: 0;
+ border-radius:5px;
+ padding: 8px;
+ margin-left: 10px;
+
+}
+#alterar{
+    background-color:#f0c808;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 10px ;
+    
+}
+table tr:hover{
+    background-color: #ccc;
+}
+th{
+    height: 30px;
+}
+td.valor{
+    width: 50px ;
+}
+td.curso{
+    width: 300px ;
+}
+td.acoes{
+    width: 150px;
+}
